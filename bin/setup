@@ -2,7 +2,11 @@
 require "fileutils"
 
 APP_ROOT = File.expand_path("..", __dir__)
+<<<<<<< HEAD
 APP_NAME = "travel-destinations-db"
+=======
+APP_NAME = "travel-destinations"
+>>>>>>> Initial commit
 
 def system!(*args)
   system(*args, exception: true)

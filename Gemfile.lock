@@ -72,6 +72,11 @@ GEM
       minitest (>= 5.1)
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
+<<<<<<< HEAD
+=======
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
+>>>>>>> Initial commit
     ast (2.4.3)
     base64 (0.2.0)
     benchmark (0.4.0)
@@ -82,6 +87,18 @@ GEM
     brakeman (7.0.0)
       racc
     builder (3.3.0)
+<<<<<<< HEAD
+=======
+    capybara (3.40.0)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.11)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+>>>>>>> Initial commit
     concurrent-ruby (1.3.5)
     connection_pool (2.5.0)
     crass (1.0.6)
@@ -121,6 +138,10 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.4)
+<<<<<<< HEAD
+=======
+    matrix (0.4.2)
+>>>>>>> Initial commit
     mini_mime (1.1.5)
     minitest (5.25.5)
     msgpack (1.8.0)
@@ -154,13 +175,20 @@ GEM
     parser (3.3.7.1)
       ast (~> 2.4.1)
       racc
+<<<<<<< HEAD
     pg (1.5.9)
+=======
+>>>>>>> Initial commit
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
     psych (5.2.3)
       date
       stringio
+<<<<<<< HEAD
+=======
+    public_suffix (6.0.1)
+>>>>>>> Initial commit
     puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
@@ -208,6 +236,10 @@ GEM
     regexp_parser (2.10.0)
     reline (0.6.0)
       io-console (~> 0.5)
+<<<<<<< HEAD
+=======
+    rexml (3.4.1)
+>>>>>>> Initial commit
     rubocop (1.74.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
@@ -236,7 +268,18 @@ GEM
       rubocop-performance (>= 1.24)
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
+<<<<<<< HEAD
     securerandom (0.4.1)
+=======
+    rubyzip (2.4.1)
+    securerandom (0.4.1)
+    selenium-webdriver (4.29.1)
+      base64 (~> 0.2)
+      logger (~> 1.4)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+>>>>>>> Initial commit
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -244,6 +287,17 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
+=======
+    sqlite3 (2.6.0-aarch64-linux-gnu)
+    sqlite3 (2.6.0-aarch64-linux-musl)
+    sqlite3 (2.6.0-arm-linux-gnu)
+    sqlite3 (2.6.0-arm-linux-musl)
+    sqlite3 (2.6.0-arm64-darwin)
+    sqlite3 (2.6.0-x86_64-darwin)
+    sqlite3 (2.6.0-x86_64-linux-gnu)
+    sqlite3 (2.6.0-x86_64-linux-musl)
+>>>>>>> Initial commit
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.5)
@@ -263,10 +317,19 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
+<<<<<<< HEAD
+=======
+    websocket (1.2.11)
+>>>>>>> Initial commit
     websocket-driver (0.7.7)
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+<<<<<<< HEAD
+=======
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+>>>>>>> Initial commit
     zeitwerk (2.6.18)
 
 PLATFORMS
@@ -283,15 +346,28 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   brakeman
+<<<<<<< HEAD
+=======
+  capybara
+>>>>>>> Initial commit
   debug
   error_highlight (>= 0.4.0)
   importmap-rails
   jbuilder
+<<<<<<< HEAD
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.2.2, >= 7.2.2.1)
   rubocop-rails-omakase
   sprockets-rails
+=======
+  puma (>= 5.0)
+  rails (~> 7.2.2, >= 7.2.2.1)
+  rubocop-rails-omakase
+  selenium-webdriver
+  sprockets-rails
+  sqlite3 (>= 1.4)
+>>>>>>> Initial commit
   stimulus-rails
   turbo-rails
   tzinfo-data
